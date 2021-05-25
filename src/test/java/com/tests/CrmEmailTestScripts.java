@@ -45,6 +45,7 @@ public class CrmEmailTestScripts {
 
 	}
     
+    //this test case has been implemented using sikuli
     @Test(description = "Send Email with To,Cc,Bcc,Subject along with Attachments", priority=0)
     public void emailTestWithAttachment() throws InterruptedException{
 		loginService.loginToApplication(appData.get(0).getUsername(),appData.get(0).getPassword());
