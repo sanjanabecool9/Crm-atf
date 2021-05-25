@@ -72,6 +72,6 @@ public class CrmContactTests {
 	
 	@Test(description = "This is gitHub Sample Test Case")
 	public void gitHubSampleTestCase() {
-		
+		homeService.logoutOfCrm();
 	}
 }
