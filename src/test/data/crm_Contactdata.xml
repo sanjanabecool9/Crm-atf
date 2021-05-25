@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<CrmContactData>
+
+   <contactdata id="set1">
+    
+    <username>admin</username>
+    <password>admin</password>
+    <salutation>Ms. </salutation>
+    <firstname>Amanda </firstname>
+    <lastname>Julie</lastname>
+    <email>Amanda@testing.com</email>
+    <editemail>Julie@testing.com</editemail>
+    
+  </contactdata>
+  
+  
+  
+    
+</CrmContactData>

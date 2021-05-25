@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CrmEmailData>
+
+   <emaildata id="set1">
+    
+    <username>admin</username>
+    <password>admin</password>
+    <to>sanju.sahasra@gmail.com</to>
+    <subject>testing the email</subject>
+    <body>Hello Team </body>
+    
+    <attachment>Flowchart for an hospital appointment.jpg</attachment>
+    
+    
+  </emaildata>
+  
+  
+  
+    
+</CrmEmailData>
+

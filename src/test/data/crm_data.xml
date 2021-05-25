@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CrmLoginData>
+
+   <logindata id="set1">
+    
+    <username>admin</username>
+    <password>admin</password>
+    <name>Sowmithry</name>
+    <email>Sowmithry@testing.com</email>
+    <street>chamaraju street </street>
+    <city>banagalore</city>
+    <state>karnataka</state>
+    <option>Mobile</option>
+    <phone>9090909090</phone>
+    
+  </logindata>
+  
+  
+  
+    
+</CrmLoginData>
+

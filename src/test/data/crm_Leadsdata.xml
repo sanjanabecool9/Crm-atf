@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CrmLeadData>
+
+   <Leaddata id="set1">
+    
+    <username>admin</username>
+    <password>admin</password>
+    <salutation>Mr.</salutation>
+    <firstname>Amith </firstname>
+    <lastname>Shah</lastname>
+    <email>Amith@testing.com</email>
+    <option>Office</option>
+    <phone>997687890</phone>
+    <title>business</title>
+    <accountname>sowmithry</accountname>
+    <website>www.amith.com</website>
+    <street>don street</street>
+    <city>bangalore</city>
+    <state>karnataka</state>
+    <postalcode>589878</postalcode>
+    <country>India</country>
+    
+  </Leaddata>
+  
+  
+  
+    
+</CrmLeadData>
