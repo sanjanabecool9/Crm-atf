@@ -78,7 +78,17 @@ public class CrmAccountContainer {
 	@FindBy (xpath="//div[@class='field' and @data-name='assignedUser']")
 	public WebElement createdAssignedUser;
 	
+	@FindBy (xpath="//a[@data-action='dial']")
+	public WebElement createdPhoneNumer;
 	
+	public WebElement getCreatedPhoneNumer() {
+		return createdPhoneNumer;
+	}
+
+	public void setCreatedPhoneNumer(WebElement createdPhoneNumer) {
+		this.createdPhoneNumer = createdPhoneNumer;
+	}
+
 	public WebElement getCreatedAssignedUser() {
 		return createdAssignedUser;
 	}

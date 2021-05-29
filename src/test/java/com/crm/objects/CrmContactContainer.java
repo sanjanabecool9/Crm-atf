@@ -51,7 +51,7 @@ public class CrmContactContainer {
 	@FindBy (xpath="//i[@class='fas fa-angle-up']")
 	public WebElement contextMenuAssignedUser;
 	
-	@FindBy (xpath="//a[@data-id='60a23f2cd3f9da70b']")
+	@FindBy (xpath="//a[@data-id='1']")
 	public WebElement assignedUser1;
 	
 	@FindBy (xpath="//div[@data-name='assignedUser' and @class='field']")

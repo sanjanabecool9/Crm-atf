@@ -2,12 +2,12 @@ C:\Rootshell\Crm-atf\src\test\java\com\crm\validators\CrmContactValidator.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\CrmLeadsContainer.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\CrmContactContainer.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\CrmAccountContainer.java
-C:\Rootshell\Crm-atf\src\test\java\com\crm\validators\CrmValidator.java
 C:\Rootshell\Crm-atf\src\test\java\com\tests\CrmEmailTestScripts.java
 C:\Rootshell\Crm-atf\src\test\java\com\tests\InitializeViews.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\CrmLeadServices.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\LoginService.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\HomeServices.java
+C:\Rootshell\Crm-atf\src\test\java\com\crm\validators\CrmEmailValidator.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\CrmEmailServices.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\LoginPageContainer.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\HomePageContainer.java
@@ -18,6 +18,7 @@ C:\Rootshell\Crm-atf\src\test\java\com\tests\CrmAccountTests.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\CrmAccountServices.java
 C:\Rootshell\Crm-atf\src\test\java\com\tests\CrmContactTests.java
 C:\Rootshell\Crm-atf\src\test\java\com\tests\CrmLeadTests.java
+C:\Rootshell\Crm-atf\src\test\java\com\crm\validators\CrmAccountValidator.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\services\CrmUserServices.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\validators\CrmLeadValidator.java
 C:\Rootshell\Crm-atf\src\test\java\com\crm\objects\CrmEmailContainer.java

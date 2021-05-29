@@ -103,6 +103,17 @@ public class CrmAccountServices {
 	}
 	
 	
+	public int getCreatedNumberLength(){
+		int phoneNumLength=crmAccountContainer.getCreatedPhoneNumer().getText().length();
+		return phoneNumLength;
+	}
+	public String createdPhoneNumber(){
+		String phoneNumber=crmAccountContainer.getCreatedPhoneNumer().getText();
+		return phoneNumber;
+	}
+	
+	
+
 	public CrmAccountServices clickOnCreatedAccountCheckBox(){
 		crmAccountContainer.getCreatedAccountCheckBox().click();
 		log.info("Account is selected to remove");

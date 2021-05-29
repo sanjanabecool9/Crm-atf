@@ -1,5 +1,6 @@
 package com.tests;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import org.testng.annotations.BeforeClass;
@@ -41,7 +42,7 @@ public class CrmAccountTests {
 
 	}
 
-	@Test
+	@Test(priority=0)
 	public void createAccountWithBillingAddress() {
 		loginService.loginToApplication(appData.get(0).getUsername(), appData.get(0).getPassword());
 		homeService.navigateToAccounts();
@@ -58,6 +59,7 @@ public class CrmAccountTests {
 
 		crmAccountServices.clickOnSaveButton().getBillingAddress();
 		
+		//crmAccountValidator.ValidateAccountPhoneNumberFormat(crmAccountServices);
 		crmAccountValidator.validateAccountEmail(crmAccountServices);
 		crmAccountValidator.validateBillingAndShippingAddressIsSameOrNot(crmAccountServices);
 		crmAccountValidator.validateAssignedUser(crmAccountServices);
@@ -73,4 +75,28 @@ public class CrmAccountTests {
 		homeService.logoutOfCrm();
 
 	}
+	//testcase for checking the format of the phone number
+	@Test(priority=1)
+	public void testcaseToCheckAValidPhoneNumber(){
+		loginService.loginToApplication(appData.get(0).getUsername(), appData.get(0).getPassword());
+		homeService.navigateToAccounts();
+		crmAccountServices.navigateToCreateAccount().insertNameAndEmail(appData.get(0).getName(), appData.get(0).getEmail()).insertBillingAddress(appData.get(0).getStreet(), appData.get(0).getCity(), appData.get(0).getState());
+		crmAccountServices.insertShippingAddressSameAsBillingAddress();
+		crmAccountServices.selectPhoneOption(appData.get(0).getOption()).insertPhoneNumber(appData.get(0).getPhone());
+		crmAccountServices.clickOnSaveButton();
+		crmAccountValidator.ValidateAccountPhoneNumberFormat(crmAccountServices);
+		homeService.navigateToAccounts();
+		crmAccountServices.clickOnCreatedAccountCheckBox();
+		crmAccountServices.clickOnActionsButton().selectRemoveOption().clickOnRemoveButton();
+		
+		homeService.logoutOfCrm();
+		
+
+		
+		
+	}
+	/*@Test(priority=2)
+	public void testcaseDataBase() throws SQLException{
+		BrowserDriver.dataBaseTest();
+	}*/
 }

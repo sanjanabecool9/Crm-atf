@@ -2,6 +2,11 @@
 package com.crm.config;
 
 import java.io.File;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -90,6 +95,28 @@ public class BrowserDriver {
 		
 	}
 	
+	public static void dataBaseTest() throws SQLException{
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+
+		Connection con=DriverManager.getConnection("http://localhost/phpmyadmin/");
+		Statement stmt=con.createStatement();
+		String query="select name from account";
+		ResultSet rs=stmt.executeQuery(query);
+		
+		while(rs.next())
+		{
+			String name=rs.getString("name");
+			System.out.println(name);
+		}
+		
+		
+	}
 	
 	
 	

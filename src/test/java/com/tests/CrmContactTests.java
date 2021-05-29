@@ -16,6 +16,8 @@ import com.crm.services.LoginService;
 import com.crm.validators.CrmContactValidator;
 
 public class CrmContactTests {
+
+	// initialisation of variables
 	LoginService loginService = null;
 	HomeServices homeService = null;
 	CrmContactServices crmContactServices = null;
@@ -27,7 +29,7 @@ public class CrmContactTests {
 
 	@BeforeClass
 	public void init() {
-
+		// object creation
 		loginService = new LoginService();
 		homeService = new HomeServices();
 		crmContactServices = new CrmContactServices();
@@ -69,9 +71,9 @@ public class CrmContactTests {
 		homeService.logoutOfCrm();
 
 	}
-	
-	@Test(description = "This is gitHub Sample Test Case")
-	public void gitHubSampleTestCase() {
-		homeService.logoutOfCrm();
-	}
+
+	/*
+	 * @Test(description = "This is gitHub Sample Test Case") public void
+	 * gitHubSampleTestCase() { homeService.logoutOfCrm(); }
+	 */
 }

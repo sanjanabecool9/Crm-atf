@@ -40,7 +40,7 @@ public class CrmContactValidator {
 }
 	
 	public void validateCreatedAssignedUser(CrmContactServices createcontactservice){
-		String createdAssignedUser="Sanjana s";
+		String createdAssignedUser="Admin";
 		String createdAssignedUser_webpage=createcontactservice.createdAssignedUser();
 		Assert.assertEquals(createdAssignedUser_webpage, createdAssignedUser);
 	}

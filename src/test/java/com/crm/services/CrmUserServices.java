@@ -18,7 +18,7 @@ public class CrmUserServices {
 		return this;
 	}
 	public CrmUserServices insertUserName(){
-		crmUserContainer.getTxtFieldUserName().sendKeys("Root");
+		crmUserContainer.getTxtFieldUserName().sendKeys("Equinix");
 		return this;
 	}
 	
@@ -70,7 +70,7 @@ public class CrmUserServices {
 	}
 	
 	public CrmUserServices clickOnSave(){
-		crmUserContainer.getButtonSaveUser();
+		crmUserContainer.getButtonSaveUser().click();
 		return this;
 	}
 	
