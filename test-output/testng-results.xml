@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10768" started-at="2021-05-29T16:08:15Z" finished-at="2021-05-29T16:08:26Z">
+  <suite name="Default suite" duration-ms="16672" started-at="2021-05-30T04:14:05Z" finished-at="2021-05-30T04:14:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10768" started-at="2021-05-29T16:08:15Z" finished-at="2021-05-29T16:08:26Z">
+    <test name="Default test" duration-ms="16672" started-at="2021-05-30T04:14:05Z" finished-at="2021-05-30T04:14:22Z">
       <class name="com.tests.CrmAccountTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmAccountTests@61dc03ce]" name="init" is-config="true" duration-ms="3390" started-at="2021-05-29T21:38:15Z" finished-at="2021-05-29T21:38:18Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmAccountTests@61dc03ce]" name="init" is-config="true" duration-ms="5065" started-at="2021-05-30T09:44:05Z" finished-at="2021-05-30T09:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="createAccountWithBillingAddress()[pri:0, instance:com.tests.CrmAccountTests@61dc03ce]" name="createAccountWithBillingAddress" duration-ms="5328" started-at="2021-05-29T21:38:18Z" finished-at="2021-05-29T21:38:24Z">
+        <test-method status="PASS" signature="createAccountWithBillingAddress()[pri:0, instance:com.tests.CrmAccountTests@61dc03ce]" name="createAccountWithBillingAddress" duration-ms="8869" started-at="2021-05-30T09:44:10Z" finished-at="2021-05-30T09:44:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountWithBillingAddress -->
-        <test-method status="PASS" signature="testcaseToCheckAValidPhoneNumber()[pri:1, instance:com.tests.CrmAccountTests@61dc03ce]" name="testcaseToCheckAValidPhoneNumber" duration-ms="2028" started-at="2021-05-29T21:38:24Z" finished-at="2021-05-29T21:38:26Z">
+        <test-method status="PASS" signature="testcaseToCheckAValidPhoneNumber()[pri:1, instance:com.tests.CrmAccountTests@61dc03ce]" name="testcaseToCheckAValidPhoneNumber" duration-ms="2706" started-at="2021-05-30T09:44:19Z" finished-at="2021-05-30T09:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcaseToCheckAValidPhoneNumber -->
