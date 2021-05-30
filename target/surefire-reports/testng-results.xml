@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Crm Functional suite" duration-ms="70334" started-at="2021-05-30T09:55:05 IST" finished-at="2021-05-30T09:56:16 IST">
+  <suite name="Crm Functional suite" duration-ms="76073" started-at="2021-05-30T10:33:28 IST" finished-at="2021-05-30T10:34:44 IST">
     <groups>
     </groups>
-    <test name="Account Creation" duration-ms="70334" started-at="2021-05-30T09:55:05 IST" finished-at="2021-05-30T09:56:16 IST">
+    <test name="Account Creation" duration-ms="76073" started-at="2021-05-30T10:33:28 IST" finished-at="2021-05-30T10:34:44 IST">
       <class name="com.tests.CrmLeadTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmLeadTests@2d6eabae]" name="init" is-config="true" duration-ms="296" started-at="2021-05-30T09:56:08 IST" finished-at="2021-05-30T09:56:08 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmLeadTests@4e7dc304]" name="init" is-config="true" duration-ms="225" started-at="2021-05-30T10:34:37 IST" finished-at="2021-05-30T10:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="createLead()[pri:0, instance:com.tests.CrmLeadTests@2d6eabae]" name="createLead" duration-ms="7105" started-at="2021-05-30T09:56:08 IST" finished-at="2021-05-30T09:56:16 IST">
+        <test-method status="PASS" signature="createLead()[pri:0, instance:com.tests.CrmLeadTests@4e7dc304]" name="createLead" duration-ms="6994" started-at="2021-05-30T10:34:37 IST" finished-at="2021-05-30T10:34:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
       </class> <!-- com.tests.CrmLeadTests -->
       <class name="com.tests.CrmContactTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmContactTests@23faf8f2]" name="init" is-config="true" duration-ms="207" started-at="2021-05-30T09:55:17 IST" finished-at="2021-05-30T09:55:17 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmContactTests@2d6eabae]" name="init" is-config="true" duration-ms="229" started-at="2021-05-30T10:33:40 IST" finished-at="2021-05-30T10:33:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="createContact()[pri:0, instance:com.tests.CrmContactTests@23faf8f2]" name="createContact" duration-ms="50859" started-at="2021-05-30T09:55:17 IST" finished-at="2021-05-30T09:56:08 IST">
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.tests.CrmContactTests@2d6eabae]" name="createContact" duration-ms="56465" started-at="2021-05-30T10:33:40 IST" finished-at="2021-05-30T10:34:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContact -->
       </class> <!-- com.tests.CrmContactTests -->
       <class name="com.tests.CrmAccountTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmAccountTests@d44fc21]" name="init" is-config="true" duration-ms="3300" started-at="2021-05-30T09:55:05 IST" finished-at="2021-05-30T09:55:09 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.tests.CrmAccountTests@23faf8f2]" name="init" is-config="true" duration-ms="3427" started-at="2021-05-30T10:33:28 IST" finished-at="2021-05-30T10:33:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="createAccountWithBillingAddress()[pri:0, instance:com.tests.CrmAccountTests@d44fc21]" name="createAccountWithBillingAddress" duration-ms="5538" started-at="2021-05-30T09:55:09 IST" finished-at="2021-05-30T09:55:14 IST">
+        <test-method status="PASS" signature="createAccountWithBillingAddress()[pri:0, instance:com.tests.CrmAccountTests@23faf8f2]" name="createAccountWithBillingAddress" duration-ms="5679" started-at="2021-05-30T10:33:31 IST" finished-at="2021-05-30T10:33:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountWithBillingAddress -->
-        <test-method status="PASS" signature="testcaseToCheckAValidPhoneNumber()[pri:1, instance:com.tests.CrmAccountTests@d44fc21]" name="testcaseToCheckAValidPhoneNumber" duration-ms="2958" started-at="2021-05-30T09:55:14 IST" finished-at="2021-05-30T09:55:17 IST">
+        <test-method status="PASS" signature="testcaseToCheckAValidPhoneNumber()[pri:1, instance:com.tests.CrmAccountTests@23faf8f2]" name="testcaseToCheckAValidPhoneNumber" duration-ms="2998" started-at="2021-05-30T10:33:37 IST" finished-at="2021-05-30T10:33:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcaseToCheckAValidPhoneNumber -->

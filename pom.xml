@@ -56,11 +56,12 @@
     <version>7.1.0</version>
     <scope>compile</scope>
 </dependency>
+
   </dependencies>
 
 
 <build>
-		<finalName>crm-atf-project</finalName>
+		<finalName>Crm-atf</finalName>
 		<plugins>
 
 			<plugin>
