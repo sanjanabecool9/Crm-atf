@@ -4,9 +4,34 @@
   <listeners>
     <listener class-name="com.crm.utils.BaseListener"/>
   </listeners>
-  <test verbose="2" name="Email creation">
+  <test verbose="2" name="Account Creation">
     <classes>
-      <class name="com.tests.CrmEmailTestScripts"/>
+      <class name="com.tests.CrmAccountTests"/>
+      <class name="com.tests.CrmContactTests"/>
+      <class name="com.tests.CrmLeadTests"/>
     </classes>
-  </test> <!-- Email creation -->
+  </test> <!-- Account Creation -->
+  <test name="Account Creation(failed)">
+    <classes>
+      <class name="com.tests.CrmContactTests">
+        <methods>
+          <include name="init"/>
+          <include name="createContact"/>
+        </methods>
+      </class> <!-- com.tests.CrmContactTests -->
+      <class name="com.tests.CrmAccountTests">
+        <methods>
+          <include name="createAccountWithBillingAddress"/>
+          <include name="testcaseToCheckAValidPhoneNumber"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.tests.CrmAccountTests -->
+      <class name="com.tests.CrmLeadTests">
+        <methods>
+          <include name="init"/>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- com.tests.CrmLeadTests -->
+    </classes>
+  </test> <!-- Account Creation(failed) -->
 </suite> <!-- Failed suite [Crm Functional suite] -->

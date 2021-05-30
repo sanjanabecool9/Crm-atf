@@ -93,8 +93,8 @@
 	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jnr-posix/3.0.50/jnr-posix-3.0.50.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/github/jnr/jnr-constants/0.9.12/jnr-constants-0.9.12.jar"/>
 	<classpathentry kind="var" path="M2_REPO/jline/jline/2.14.5/jline-2.14.5.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.9.7/ant-1.9.7.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.9.7/ant-launcher-1.9.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.10.3/ant-1.10.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/sikulix/sikulix2tigervnc/1.1.4/sikulix2tigervnc-1.1.4.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/openpnp/opencv/4.3.0-3/opencv-4.3.0-3.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.4/commons-cli-1.4.jar"/>
@@ -124,11 +124,20 @@
 	<classpathentry kind="var" path="M2_REPO/net/sf/py4j/py4j/0.10.9.1/py4j-0.10.9.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/8.0.25/mysql-connector-java-8.0.25.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar"/>
-	<classpathentry kind="var" path="M2_REPO/org/testng/testng/7.1.0/testng-7.1.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/beust/jcommander/1.72/jcommander-1.72.jar"/>
-	<classpathentry kind="var" path="M2_REPO/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/testng/testng/7.3.0/testng-7.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/beust/jcommander/1.78/jcommander-1.78.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar"/>
 	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/github/bonigarcia/webdrivermanager/4.4.0/webdrivermanager-4.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.13/commons-codec-1.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
