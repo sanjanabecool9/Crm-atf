@@ -24428,3 +24428,1888 @@
 2021-05-30 15:24:47,957 INFO  [CrmContactServices] Created lead is removed 
 2021-05-30 15:24:48,730 INFO  [CrmContactServices] Total Count of leads is captured 
 2021-05-30 15:24:49,223 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-30 15:33:39,728 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-30 15:33:39,744 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-30 15:33:39,744 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-30 15:33:39,744 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b0b0854 
+2021-05-30 15:33:39,775 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-30 15:33:39,775 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-30 15:33:39,775 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-30 15:33:39,791 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-30 15:33:39,791 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-30 15:33:39,807 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-30 15:33:39,838 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-30 15:33:39,853 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-30 15:33:40,365 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-05-30 15:33:40,365 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-30 15:33:40,396 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-30 15:33:40,412 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-30 15:33:40,412 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-30 15:33:40,459 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-30 15:33:40,474 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-30 15:33:40,474 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-30 15:33:40,474 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-30 15:33:41,497 DEBUG [DefaultChannelId] -Dio.netty.processId: 6908 (auto-detected) 
+2021-05-30 15:33:41,497 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-30 15:33:41,497 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-30 15:33:41,597 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-30 15:33:41,597 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-30 15:33:41,697 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-30 15:33:41,750 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-30 15:33:41,750 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-30 15:33:41,750 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@755fe97d 
+2021-05-30 15:33:41,781 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-30 15:33:41,781 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-30 15:33:41,781 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-30 15:33:41,781 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-30 15:33:41,781 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-30 15:33:43,096 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xf9a4dc4541e85609 
+2021-05-30 15:33:45,042 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:33:48,638 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:33:49,359 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 15:33:50,375 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 15:33:50,722 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 15:33:50,808 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 15:33:51,109 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 15:33:51,975 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 15:33:53,459 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:33:54,181 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 15:33:54,343 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 15:33:54,408 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 15:33:54,575 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:33:54,903 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:33:55,526 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:33:55,759 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 15:33:56,064 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 15:33:56,420 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 15:33:56,492 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 15:33:56,704 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 15:33:56,775 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 15:33:57,547 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:33:58,264 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 15:33:58,362 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 15:33:58,431 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 15:33:58,632 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:33:59,723 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:34:46,927 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-30 15:34:47,176 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-30 15:34:48,324 INFO  [CrmContactServices] User is assigned 
+2021-05-30 15:34:48,388 INFO  [CrmContactServices] Contact is saved 
+2021-05-30 15:37:06,306 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-30 15:37:06,306 DEBUG [PoolThreadCache] Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-4 
+2021-05-30 15:47:02,939 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-30 15:47:02,939 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-30 15:47:02,939 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-30 15:47:02,939 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b0b0854 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-30 15:47:02,970 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-30 15:47:02,970 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-30 15:47:02,985 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-30 15:47:03,001 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-30 15:47:03,001 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-30 15:47:03,357 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-30 15:47:03,357 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-30 15:47:03,395 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-30 15:47:03,410 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-30 15:47:03,410 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-30 15:47:03,441 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-30 15:47:03,457 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-30 15:47:03,457 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-30 15:47:03,457 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-30 15:47:04,369 DEBUG [DefaultChannelId] -Dio.netty.processId: 3836 (auto-detected) 
+2021-05-30 15:47:04,369 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-30 15:47:04,369 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-30 15:47:04,454 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-30 15:47:04,454 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-30 15:47:04,538 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-30 15:47:04,591 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-30 15:47:04,607 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-30 15:47:04,607 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@18a39158 
+2021-05-30 15:47:04,622 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-30 15:47:04,622 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-30 15:47:04,622 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-30 15:47:04,622 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-30 15:47:04,622 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-30 15:47:05,444 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x1bbf35b8e75d3aa7 
+2021-05-30 15:47:06,590 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:47:07,665 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:47:08,097 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 15:47:08,675 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 15:47:08,924 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 15:47:08,992 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 15:47:09,179 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 15:47:09,776 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 15:47:10,707 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:47:11,065 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 15:47:11,197 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 15:47:11,257 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 15:47:11,403 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:47:11,604 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:47:12,072 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:47:12,186 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 15:47:12,357 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 15:47:12,593 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 15:47:12,656 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 15:47:12,819 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 15:47:12,870 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 15:47:13,340 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 15:47:13,713 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 15:47:13,808 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 15:47:13,847 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 15:47:13,986 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:47:14,627 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:48:01,041 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-30 15:48:01,130 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-30 15:48:01,623 INFO  [CrmContactServices] User is assigned 
+2021-05-30 15:48:01,678 INFO  [CrmContactServices] Contact is saved 
+2021-05-30 15:48:02,514 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-30 15:48:02,706 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-30 15:48:02,779 INFO  [CrmContactServices] Contact is saved 
+2021-05-30 15:48:02,802 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-30 15:48:02,820 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-30 15:48:03,184 INFO  [CrmContactServices] Contact is removed 
+2021-05-30 15:48:03,328 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:48:04,019 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 15:48:04,816 INFO  [CrmContactServices] create lead page is opened 
+2021-05-30 15:48:05,365 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-30 15:48:05,445 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-30 15:48:05,518 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-30 15:48:05,692 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-30 15:48:05,768 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-30 15:48:05,972 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-30 15:48:06,334 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-30 15:48:06,389 INFO  [CrmContactServices] lead is created 
+2021-05-30 15:48:06,421 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-30 15:48:08,036 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-30 15:48:08,541 INFO  [CrmContactServices] Created lead is removed 
+2021-05-30 15:48:09,096 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-30 15:48:09,216 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 15:48:09,376 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-30 17:02:42,979 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-30 17:02:42,979 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-30 17:02:42,979 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-30 17:02:42,994 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b0b0854 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-30 17:02:43,026 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-30 17:02:43,026 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-30 17:02:43,041 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-30 17:02:43,073 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-30 17:02:43,073 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-30 17:02:43,535 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-05-30 17:02:43,535 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-30 17:02:43,556 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-30 17:02:43,572 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-30 17:02:43,572 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-30 17:02:43,619 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-30 17:02:43,619 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-30 17:02:43,619 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-30 17:02:43,619 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-30 17:02:43,619 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-30 17:02:43,635 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-30 17:02:43,635 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-30 17:02:43,635 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-30 17:02:43,635 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-30 17:02:44,592 DEBUG [DefaultChannelId] -Dio.netty.processId: 6744 (auto-detected) 
+2021-05-30 17:02:44,592 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-30 17:02:44,592 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-30 17:02:44,670 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-30 17:02:44,670 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-30 17:02:44,763 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-30 17:02:44,826 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-30 17:02:44,826 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-30 17:02:44,826 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a7e2ea4 
+2021-05-30 17:02:44,857 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-30 17:02:44,857 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-30 17:02:44,857 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-30 17:02:44,857 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-30 17:02:44,857 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-30 17:02:46,225 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x397e59030ddbd4ab 
+2021-05-30 17:16:25,124 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-30 17:16:25,139 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-30 17:16:25,139 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-30 17:16:25,139 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b0b0854 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-30 17:16:25,155 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-30 17:16:25,171 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-30 17:16:25,171 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-30 17:16:25,171 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-30 17:16:25,186 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-30 17:16:25,186 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-30 17:16:25,547 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-05-30 17:16:25,547 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-30 17:16:25,584 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-30 17:16:25,600 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-30 17:16:25,600 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-30 17:16:25,631 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-30 17:16:25,647 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-30 17:16:25,647 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-30 17:16:25,647 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-30 17:16:26,518 DEBUG [DefaultChannelId] -Dio.netty.processId: 11040 (auto-detected) 
+2021-05-30 17:16:26,518 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-30 17:16:26,518 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-30 17:16:26,618 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-30 17:16:26,618 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-30 17:16:26,718 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-30 17:16:26,771 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-30 17:16:26,771 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-30 17:16:26,771 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@53fdc950 
+2021-05-30 17:16:26,802 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-30 17:16:26,802 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-30 17:16:26,802 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-30 17:16:26,802 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-30 17:16:26,802 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-30 17:16:27,583 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x26bf3f25cd843a41 
+2021-05-30 17:16:29,116 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 17:16:30,263 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 17:16:30,677 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 17:16:31,247 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 17:16:31,495 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 17:16:31,559 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 17:16:31,745 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 17:16:32,330 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 17:16:33,294 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 17:16:33,671 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 17:16:33,794 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 17:16:33,850 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 17:16:33,989 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 17:16:34,185 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-30 17:16:34,628 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 17:16:34,756 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-30 17:16:34,930 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-30 17:16:35,146 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-30 17:16:35,206 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-30 17:16:35,370 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-30 17:16:35,419 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-30 17:16:35,884 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-30 17:16:36,288 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-30 17:16:36,379 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-30 17:16:36,426 INFO  [CrmAccountServices] Created account is removed 
+2021-05-30 17:16:36,559 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-30 17:16:37,204 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 08:15:15,578 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 08:15:15,594 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 08:15:15,594 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 08:15:15,594 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b0b0854 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 08:15:15,625 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 08:15:15,625 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 08:15:15,640 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 08:15:15,672 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 08:15:15,672 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 08:15:16,022 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 08:15:16,022 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 08:15:16,056 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 08:15:16,071 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 08:15:16,071 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 08:15:16,118 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 08:15:16,134 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 08:15:16,134 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 08:15:16,134 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 08:15:17,087 DEBUG [DefaultChannelId] -Dio.netty.processId: 5700 (auto-detected) 
+2021-05-31 08:15:17,103 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 08:15:17,103 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 08:15:17,181 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 08:15:17,181 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 08:15:17,281 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 08:15:17,328 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 08:15:17,328 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 08:15:17,328 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3955297b 
+2021-05-31 08:15:17,364 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 08:15:17,364 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 08:15:17,364 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 08:15:17,364 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 08:15:17,364 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 08:15:18,691 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x0b294397d87f8be4 
+2021-05-31 08:15:20,280 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 08:15:21,464 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 08:15:21,799 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 08:15:22,422 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 08:15:22,688 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 08:15:22,760 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 08:15:22,936 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 08:15:23,537 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 08:15:24,464 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 08:15:24,825 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 08:15:24,958 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 08:15:25,015 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 08:15:25,157 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 08:15:25,345 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 08:15:25,801 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 08:15:25,929 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 08:15:26,114 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 08:15:26,334 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 08:15:26,396 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 08:15:26,562 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 08:15:26,604 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 08:15:27,072 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 08:15:27,452 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 08:15:27,546 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 08:15:27,604 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 08:15:27,730 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 08:15:28,438 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 08:16:14,857 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 08:16:14,965 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 08:16:15,465 INFO  [CrmContactServices] User is assigned 
+2021-05-31 08:16:15,524 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 08:16:16,423 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 08:16:16,638 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 08:16:16,720 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 08:16:16,744 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 08:16:16,760 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 08:16:17,216 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 08:16:17,384 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 08:16:18,273 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 08:16:19,197 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 08:16:19,829 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 08:16:19,981 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 08:16:20,136 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 08:16:20,433 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 08:16:20,561 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 08:16:20,897 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 08:16:21,512 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 08:16:21,608 INFO  [CrmContactServices] lead is created 
+2021-05-31 08:16:21,672 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 08:16:34,047 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 08:16:34,852 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 08:16:35,372 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 08:16:35,804 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 19:25:40,408 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 19:25:40,408 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 19:25:40,408 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 19:25:40,424 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 19:25:40,440 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 19:25:40,440 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 19:25:40,440 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 19:25:40,455 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 19:25:40,455 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 19:25:40,493 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 19:25:40,493 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 19:25:41,007 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 19:25:41,007 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 19:25:41,058 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 19:25:41,075 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 19:25:41,075 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 19:25:41,123 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 19:25:41,138 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 19:25:41,138 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 19:25:41,138 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 19:25:42,155 DEBUG [DefaultChannelId] -Dio.netty.processId: 4964 (auto-detected) 
+2021-05-31 19:25:42,155 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 19:25:42,155 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 19:25:42,340 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 19:25:42,340 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 19:25:42,522 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 19:25:42,590 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 19:25:42,590 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 19:25:42,590 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@e5358c0 
+2021-05-31 19:25:42,621 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 19:25:42,621 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 19:25:42,621 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 19:25:42,621 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 19:25:42,621 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 19:25:45,743 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xa723a4b2eaba563f 
+2021-05-31 19:25:54,606 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:25:57,646 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:25:58,215 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:25:59,316 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:25:59,667 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:25:59,773 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:25:59,987 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:26:01,140 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:26:03,130 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:26:03,675 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:26:03,861 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:26:03,925 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:26:04,069 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:26:04,275 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:26:04,919 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:26:05,047 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:26:05,248 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:26:05,495 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:26:05,575 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:26:05,740 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:26:05,812 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:26:06,365 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:26:06,734 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:26:06,829 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:26:06,881 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:26:07,001 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:26:07,799 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:26:54,725 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 19:26:54,809 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 19:26:55,948 INFO  [CrmContactServices] User is assigned 
+2021-05-31 19:26:56,008 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:26:57,734 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 19:26:57,949 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 19:26:58,101 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:26:58,141 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:26:58,157 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:26:59,088 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 19:26:59,285 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:27:01,652 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:27:02,856 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 19:27:03,549 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 19:27:03,716 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 19:27:03,845 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 19:27:04,171 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 19:27:04,251 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 19:27:04,467 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 19:27:04,847 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 19:27:04,911 INFO  [CrmContactServices] lead is created 
+2021-05-31 19:27:05,002 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 19:27:07,632 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 19:27:08,408 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 19:27:09,079 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 19:27:09,313 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:27:09,543 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 19:33:49,229 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 19:33:49,245 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 19:33:49,245 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 19:33:49,245 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 19:33:49,276 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 19:33:49,276 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 19:33:49,292 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 19:33:49,330 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 19:33:49,330 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 19:33:49,820 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 19:33:49,820 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 19:33:49,856 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 19:33:49,872 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 19:33:49,872 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 19:33:49,921 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 19:33:49,936 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 19:33:49,936 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 19:33:49,936 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 19:33:49,936 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 19:33:50,921 DEBUG [DefaultChannelId] -Dio.netty.processId: 14940 (auto-detected) 
+2021-05-31 19:33:50,921 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 19:33:50,921 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 19:33:51,089 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 19:33:51,089 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 19:33:51,274 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 19:33:51,373 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 19:33:51,373 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 19:33:51,373 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@79af3eb3 
+2021-05-31 19:33:51,420 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 19:33:51,420 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 19:33:51,420 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 19:33:51,420 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 19:33:51,420 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 19:33:52,274 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x1f0aac1c3910678d 
+2021-05-31 19:33:53,909 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:33:55,057 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:33:55,467 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:33:56,061 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:33:56,319 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:33:56,391 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:33:56,592 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:33:57,162 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:33:58,231 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:33:58,634 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:33:58,765 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:33:58,821 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:33:58,970 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:33:59,175 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:33:59,689 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:33:59,817 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:33:59,982 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:34:00,226 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:34:00,290 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:34:00,461 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:34:00,509 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:34:01,038 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:34:01,505 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:34:01,604 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:34:01,653 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:34:01,783 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:34:02,519 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:34:49,108 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 19:34:49,277 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 19:34:49,974 INFO  [CrmContactServices] User is assigned 
+2021-05-31 19:34:50,073 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:34:51,025 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 19:34:51,210 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 19:34:51,290 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:34:51,322 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:34:51,338 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:34:51,830 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 19:34:51,983 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:34:52,809 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:34:53,688 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 19:34:54,290 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 19:34:54,410 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 19:34:54,554 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 19:34:54,842 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 19:34:54,906 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 19:34:55,119 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 19:34:55,541 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 19:34:55,645 INFO  [CrmContactServices] lead is created 
+2021-05-31 19:34:55,701 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 19:35:03,486 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 19:35:04,066 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 19:35:04,734 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 19:35:05,125 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 19:35:24,724 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 19:35:24,740 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 19:35:24,740 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 19:35:24,740 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 19:35:24,755 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 19:35:24,771 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 19:35:24,771 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 19:35:24,809 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 19:35:24,809 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 19:35:25,270 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 19:35:25,270 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 19:35:25,292 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 19:35:25,307 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 19:35:25,307 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 19:35:25,339 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 19:35:25,354 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 19:35:25,354 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 19:35:25,354 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 19:35:26,271 DEBUG [DefaultChannelId] -Dio.netty.processId: 6876 (auto-detected) 
+2021-05-31 19:35:26,287 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 19:35:26,288 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 19:35:26,439 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 19:35:26,439 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 19:35:26,608 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 19:35:26,670 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 19:35:26,670 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 19:35:26,670 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@36d4a50 
+2021-05-31 19:35:26,707 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 19:35:26,707 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 19:35:26,707 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 19:35:26,707 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 19:35:26,707 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 19:35:27,419 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x07feeae8c3891fa0 
+2021-05-31 19:35:28,859 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:35:29,956 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:35:30,328 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:35:30,907 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:35:31,183 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:35:31,303 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:35:31,646 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:35:32,376 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:35:33,359 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:35:33,747 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:35:33,854 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:35:33,909 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:35:34,047 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:35:34,240 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:35:34,854 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:35:34,960 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 19:35:35,124 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 19:35:35,371 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 19:35:35,429 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 19:35:35,601 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 19:35:35,657 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 19:35:36,268 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 19:35:36,642 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 19:35:36,762 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 19:35:36,833 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 19:35:36,982 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:35:37,855 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:36:24,403 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 19:36:24,491 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 19:36:37,838 INFO  [CrmContactServices] User is assigned 
+2021-05-31 19:36:37,901 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:36:38,800 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 19:36:38,976 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 19:36:39,063 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 19:36:39,087 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:36:39,103 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 19:36:39,508 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 19:36:39,684 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:36:40,456 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 19:36:41,324 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 19:36:41,872 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 19:36:41,956 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 19:36:42,025 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 19:36:42,207 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 19:36:42,319 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 19:36:42,670 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 19:36:43,308 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 19:36:43,416 INFO  [CrmContactServices] lead is created 
+2021-05-31 19:36:43,464 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 19:36:45,291 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 19:36:45,916 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 19:36:46,448 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 19:36:46,584 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 19:36:46,744 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 20:00:38,291 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 20:00:38,291 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 20:00:38,291 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 20:00:38,291 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 20:00:38,307 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 20:00:38,307 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 20:00:38,307 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 20:00:38,322 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 20:00:38,322 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 20:00:38,338 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 20:00:38,353 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 20:00:38,353 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 20:00:38,809 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 20:00:38,809 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 20:00:38,843 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 20:00:38,843 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 20:00:38,843 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 20:00:38,893 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 20:00:38,893 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 20:00:38,893 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 20:00:38,893 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 20:00:39,810 DEBUG [DefaultChannelId] -Dio.netty.processId: 11372 (auto-detected) 
+2021-05-31 20:00:39,810 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 20:00:39,810 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 20:00:39,994 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 20:00:39,994 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 20:00:40,161 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 20:00:40,210 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 20:00:40,210 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 20:00:40,210 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@30d187e 
+2021-05-31 20:00:40,243 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 20:00:40,243 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 20:00:40,243 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 20:00:40,243 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 20:00:40,243 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 20:00:41,046 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x56afbad10f537189 
+2021-05-31 20:00:42,429 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:00:43,505 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:00:43,922 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:00:44,499 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:00:44,747 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:00:44,835 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:00:45,139 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:00:45,751 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:00:46,724 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:00:47,103 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:00:47,239 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:00:47,298 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:00:47,438 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:00:47,644 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:00:48,160 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:00:48,264 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:00:48,443 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:00:48,663 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:00:48,728 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:00:48,900 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:00:48,948 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:00:49,473 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:00:49,852 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:00:49,968 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:00:50,016 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:00:50,144 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:00:50,959 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:01:37,529 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 20:01:37,642 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 20:01:38,210 INFO  [CrmContactServices] User is assigned 
+2021-05-31 20:01:38,289 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:01:39,208 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 20:01:39,429 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 20:01:39,501 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:01:39,525 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:01:39,541 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:01:39,994 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 20:01:40,136 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:01:40,931 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:01:41,786 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 20:01:42,331 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 20:01:42,419 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 20:01:42,507 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 20:01:42,723 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 20:01:42,795 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 20:01:43,011 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 20:01:43,437 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 20:01:43,541 INFO  [CrmContactServices] lead is created 
+2021-05-31 20:01:43,597 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 20:02:01,126 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 20:02:01,788 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 20:02:02,344 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 20:02:02,717 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 20:27:17,480 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 20:27:17,480 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 20:27:17,480 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 20:27:17,480 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 20:27:17,512 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 20:27:17,512 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 20:27:17,527 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 20:27:17,565 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 20:27:17,565 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 20:27:17,981 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 20:27:17,981 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 20:27:18,012 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 20:27:18,028 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 20:27:18,028 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 20:27:18,081 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 20:27:18,081 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 20:27:18,081 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 20:27:18,081 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 20:27:19,017 DEBUG [DefaultChannelId] -Dio.netty.processId: 14520 (auto-detected) 
+2021-05-31 20:27:19,017 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 20:27:19,017 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 20:27:19,201 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 20:27:19,201 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 20:27:19,433 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 20:27:19,486 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 20:27:19,486 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 20:27:19,486 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a00f86f 
+2021-05-31 20:27:19,502 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 20:27:19,502 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 20:27:19,502 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 20:27:19,502 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 20:27:19,502 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 20:27:20,317 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xe2f5172546311549 
+2021-05-31 20:27:21,751 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:27:22,821 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:27:23,280 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:27:23,897 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:27:24,154 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:27:24,226 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:27:24,441 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:27:25,111 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:27:26,214 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:27:26,560 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:27:26,698 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:27:26,784 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:27:26,925 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:27:27,141 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:27:27,613 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:27:27,725 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:27:27,899 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:27:28,238 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:27:28,342 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:27:28,530 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:27:28,573 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:27:29,177 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:27:29,570 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:27:29,678 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:27:29,729 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:27:29,858 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:27:30,697 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:28:17,370 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 20:28:17,522 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 20:28:18,226 INFO  [CrmContactServices] User is assigned 
+2021-05-31 20:28:18,283 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:28:19,157 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 20:28:19,317 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 20:28:19,397 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:28:19,429 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:28:19,445 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:28:19,913 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 20:28:20,081 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:28:20,925 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:28:21,835 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 20:28:22,490 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 20:28:22,622 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 20:28:22,730 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 20:28:22,983 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 20:28:23,063 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 20:28:23,267 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 20:28:23,863 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 20:28:23,959 INFO  [CrmContactServices] lead is created 
+2021-05-31 20:28:24,014 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 20:28:25,899 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 20:28:26,544 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 20:28:27,121 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 20:28:27,321 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:28:27,482 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 20:53:48,130 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 20:53:48,146 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 20:53:48,146 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 20:53:48,146 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 20:53:48,193 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 20:53:48,209 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 20:53:48,209 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 20:53:48,209 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 20:53:48,209 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 20:53:48,215 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 20:53:48,246 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 20:53:48,246 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 20:53:48,696 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2]  
+2021-05-31 20:53:48,696 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 20:53:48,719 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 20:53:48,734 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 20:53:48,734 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 20:53:48,765 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 20:53:48,781 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 20:53:48,781 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 20:53:48,781 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 20:53:49,728 DEBUG [DefaultChannelId] -Dio.netty.processId: 11704 (auto-detected) 
+2021-05-31 20:53:49,728 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 20:53:49,728 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 20:53:49,897 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 20:53:49,897 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 20:53:50,060 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 20:53:50,113 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 20:53:50,113 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 20:53:50,113 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73d1b392 
+2021-05-31 20:53:50,145 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 20:53:50,145 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 20:53:50,145 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 20:53:50,145 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 20:53:50,145 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 20:53:51,415 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x0a0fc711782e5c35 
+2021-05-31 20:53:56,285 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:53:57,458 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:53:58,033 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:53:58,851 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:53:59,102 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:53:59,170 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:53:59,383 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:54:00,078 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:54:01,582 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:54:01,930 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:54:02,038 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:54:02,094 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:54:02,229 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:54:02,453 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:54:02,969 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:54:03,084 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 20:54:03,252 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 20:54:03,466 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 20:54:03,538 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 20:54:03,714 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 20:54:03,762 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 20:54:04,379 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 20:54:04,681 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 20:54:04,790 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 20:54:04,844 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 20:54:04,980 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:54:05,934 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:54:52,584 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 20:54:52,730 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 20:54:53,440 INFO  [CrmContactServices] User is assigned 
+2021-05-31 20:54:53,504 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:54:54,395 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 20:54:54,584 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 20:54:54,659 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 20:54:54,683 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:54:54,699 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 20:54:55,026 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 20:54:55,178 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 20:54:56,035 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 20:54:56,934 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 20:54:57,509 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 20:54:57,599 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 20:54:57,678 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 20:54:57,858 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 20:54:57,922 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 20:54:58,123 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 20:54:58,767 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 20:54:58,861 INFO  [CrmContactServices] lead is created 
+2021-05-31 20:54:58,927 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 20:55:06,085 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 20:55:06,706 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 20:55:07,261 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 20:55:07,585 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-05-31 21:29:03,578 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-05-31 21:29:03,594 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-05-31 21:29:03,594 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-05-31 21:29:03,594 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75329a49 
+2021-05-31 21:29:03,625 DEBUG [PlatformDependent] Platform: Windows 
+2021-05-31 21:29:03,625 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-05-31 21:29:03,625 DEBUG [PlatformDependent0] Java version: 8 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-05-31 21:29:03,641 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-05-31 21:29:03,647 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-05-31 21:29:03,647 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-05-31 21:29:03,647 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-05-31 21:29:03,647 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-05-31 21:29:03,647 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-05-31 21:29:03,647 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-05-31 21:29:03,663 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-05-31 21:29:03,694 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-05-31 21:29:03,694 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-05-31 21:29:04,196 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-05-31 21:29:04,196 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-05-31 21:29:04,227 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-05-31 21:29:04,242 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-05-31 21:29:04,242 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-05-31 21:29:04,296 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-05-31 21:29:04,311 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-05-31 21:29:04,311 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-05-31 21:29:04,311 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-05-31 21:29:05,219 DEBUG [DefaultChannelId] -Dio.netty.processId: 11592 (auto-detected) 
+2021-05-31 21:29:05,219 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-05-31 21:29:05,219 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-05-31 21:29:05,418 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-05-31 21:29:05,418 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-05-31 21:29:05,612 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-05-31 21:29:05,697 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-05-31 21:29:05,697 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-05-31 21:29:05,697 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6863387f 
+2021-05-31 21:29:05,713 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-05-31 21:29:05,713 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-05-31 21:29:05,713 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-05-31 21:29:05,713 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-05-31 21:29:05,713 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-05-31 21:29:06,549 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xd0da6fc5351a54fc 
+2021-05-31 21:29:08,174 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 21:29:09,396 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 21:29:09,890 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 21:29:10,584 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 21:29:10,835 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 21:29:10,897 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 21:29:11,104 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 21:29:11,758 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 21:29:12,938 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 21:29:13,380 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 21:29:13,508 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 21:29:13,572 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 21:29:13,706 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 21:29:13,915 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 21:29:14,552 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 21:29:14,689 INFO  [CrmAccountServices] User navigated to create account page 
+2021-05-31 21:29:14,872 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-05-31 21:29:15,105 INFO  [CrmAccountServices] Billing address is inserted 
+2021-05-31 21:29:15,157 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-05-31 21:29:15,319 INFO  [CrmAccountServices] phone number is inserted 
+2021-05-31 21:29:15,361 INFO  [CrmAccountServices] Save button is clicked 
+2021-05-31 21:29:15,907 INFO  [HomeServices] User is navaigated to accounts page 
+2021-05-31 21:29:16,382 INFO  [CrmAccountServices] Account is selected to remove 
+2021-05-31 21:29:16,538 INFO  [CrmAccountServices] Remove option is clicked 
+2021-05-31 21:29:16,604 INFO  [CrmAccountServices] Created account is removed 
+2021-05-31 21:29:16,734 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 21:29:17,588 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 21:30:04,114 INFO  [CrmContactServices] Contact Name is inserted 
+2021-05-31 21:30:04,196 INFO  [CrmContactServices] contacts email is inserted 
+2021-05-31 21:30:04,773 INFO  [CrmContactServices] User is assigned 
+2021-05-31 21:30:04,853 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 21:30:05,808 INFO  [CrmContactServices] Edit button is clicked 
+2021-05-31 21:30:06,014 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-05-31 21:30:06,106 INFO  [CrmContactServices] Contact is saved 
+2021-05-31 21:30:06,130 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 21:30:06,154 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-05-31 21:30:06,608 INFO  [CrmContactServices] Contact is removed 
+2021-05-31 21:30:06,766 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 21:30:07,527 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-05-31 21:30:08,346 INFO  [CrmContactServices] create lead page is opened 
+2021-05-31 21:30:09,091 INFO  [CrmContactServices] Lead Name is inserted 
+2021-05-31 21:30:09,243 INFO  [CrmContactServices] Lead email is inserted 
+2021-05-31 21:30:09,371 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-05-31 21:30:09,691 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-05-31 21:30:09,795 INFO  [CrmContactServices] Lead title is inserted 
+2021-05-31 21:30:10,004 INFO  [CrmContactServices] Lead Website is inserted 
+2021-05-31 21:30:10,605 INFO  [CrmContactServices] Lead Address is inserted 
+2021-05-31 21:30:10,712 INFO  [CrmContactServices] lead is created 
+2021-05-31 21:30:10,773 INFO  [CrmContactServices] Created Lead email is captured 
+2021-05-31 21:30:12,611 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-05-31 21:30:13,423 INFO  [CrmContactServices] Created lead is removed 
+2021-05-31 21:30:13,973 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-05-31 21:30:14,206 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-05-31 21:30:14,406 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-06-01 15:35:57,575 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:35:57,575 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:35:57,575 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:35:57,590 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d2ffcb7 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:35:57,612 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:35:57,612 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:35:57,628 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:35:57,659 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:35:57,659 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:35:57,691 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:35:57,691 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:35:57,728 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:35:57,744 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:35:57,744 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:35:57,797 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:35:57,813 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:35:57,813 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:35:57,813 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:35:58,751 DEBUG [DefaultChannelId] -Dio.netty.processId: 6540 (auto-detected) 
+2021-06-01 15:35:58,751 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:35:58,751 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:35:58,887 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:35:58,887 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:35:59,029 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:35:59,098 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:35:59,098 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:35:59,098 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5f0a797e 
+2021-06-01 15:35:59,118 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:35:59,118 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:35:59,118 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:35:59,118 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:35:59,118 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:36:00,055 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xa88474aecd51c6c2 
+2021-06-01 15:36:06,925 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:36:09,473 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:36:10,005 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:36:11,015 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:36:11,433 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:36:11,499 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:36:11,691 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:36:12,802 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:36:14,531 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:36:14,981 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:36:15,095 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:36:15,150 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:36:15,367 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:36:16,159 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:37:02,914 INFO  [CrmContactServices] Contact Name is inserted 
+2021-06-01 15:37:03,031 INFO  [CrmContactServices] contacts email is inserted 
+2021-06-01 15:37:03,754 INFO  [CrmContactServices] User is assigned 
+2021-06-01 15:37:03,850 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:37:04,874 INFO  [CrmContactServices] Edit button is clicked 
+2021-06-01 15:37:05,090 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-06-01 15:37:05,173 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:37:05,197 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:37:05,213 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:37:05,691 INFO  [CrmContactServices] Contact is removed 
+2021-06-01 15:37:05,917 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:37:06,785 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:37:07,707 INFO  [CrmContactServices] create lead page is opened 
+2021-06-01 15:37:08,390 INFO  [CrmContactServices] Lead Name is inserted 
+2021-06-01 15:37:08,515 INFO  [CrmContactServices] Lead email is inserted 
+2021-06-01 15:37:08,599 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-06-01 15:37:08,815 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-06-01 15:37:08,944 INFO  [CrmContactServices] Lead title is inserted 
+2021-06-01 15:37:09,290 INFO  [CrmContactServices] Lead Website is inserted 
+2021-06-01 15:37:09,918 INFO  [CrmContactServices] Lead Address is inserted 
+2021-06-01 15:37:10,022 INFO  [CrmContactServices] lead is created 
+2021-06-01 15:37:10,082 INFO  [CrmContactServices] Created Lead email is captured 
+2021-06-01 15:37:15,909 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-06-01 15:37:16,608 INFO  [CrmContactServices] Created lead is removed 
+2021-06-01 15:37:17,075 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-06-01 15:38:02,751 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-06-01 15:38:31,113 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:38:31,128 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:38:31,128 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:38:31,128 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d2ffcb7 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:38:31,144 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:38:31,144 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:38:31,160 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:38:31,160 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:38:31,191 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:38:31,191 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:38:31,213 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:38:31,213 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:38:31,244 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:38:31,244 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:38:31,244 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:38:31,291 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:38:31,307 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:38:31,307 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:38:31,307 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:38:32,194 DEBUG [DefaultChannelId] -Dio.netty.processId: 4080 (auto-detected) 
+2021-06-01 15:38:32,194 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:38:32,210 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:38:32,347 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:38:32,347 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:38:32,525 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:38:32,607 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:38:32,607 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:38:32,607 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3c07d58c 
+2021-06-01 15:38:32,635 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:38:32,635 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:38:32,635 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:38:32,635 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:38:32,635 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:38:33,535 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x0a357bf65d46b256 
+2021-06-01 15:38:34,617 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:38:35,724 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:38:36,093 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:38:36,665 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:38:37,070 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:38:37,191 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:38:37,499 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:38:38,322 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:38:39,413 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:38:39,794 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:38:39,910 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:38:39,971 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:38:40,154 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:38:40,929 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:39:27,554 INFO  [CrmContactServices] Contact Name is inserted 
+2021-06-01 15:39:27,699 INFO  [CrmContactServices] contacts email is inserted 
+2021-06-01 15:39:28,399 INFO  [CrmContactServices] User is assigned 
+2021-06-01 15:39:28,490 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:39:29,505 INFO  [CrmContactServices] Edit button is clicked 
+2021-06-01 15:39:29,706 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-06-01 15:39:29,779 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:39:29,803 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:39:29,819 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:39:30,247 INFO  [CrmContactServices] Contact is removed 
+2021-06-01 15:39:30,494 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:39:31,352 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:39:32,203 INFO  [CrmContactServices] create lead page is opened 
+2021-06-01 15:39:32,914 INFO  [CrmContactServices] Lead Name is inserted 
+2021-06-01 15:39:33,052 INFO  [CrmContactServices] Lead email is inserted 
+2021-06-01 15:39:33,183 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-06-01 15:39:33,480 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-06-01 15:39:33,616 INFO  [CrmContactServices] Lead title is inserted 
+2021-06-01 15:39:33,888 INFO  [CrmContactServices] Lead Website is inserted 
+2021-06-01 15:39:34,498 INFO  [CrmContactServices] Lead Address is inserted 
+2021-06-01 15:39:34,595 INFO  [CrmContactServices] lead is created 
+2021-06-01 15:39:34,651 INFO  [CrmContactServices] Created Lead email is captured 
+2021-06-01 15:39:36,574 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-06-01 15:39:37,201 INFO  [CrmContactServices] Created lead is removed 
+2021-06-01 15:39:37,902 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-06-01 15:39:38,094 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:39:38,301 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:39:38,844 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:39:38,964 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:39:39,143 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:39:39,528 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:39:39,638 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:39:39,903 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:39:39,999 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:39:40,547 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:39:40,932 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:39:41,077 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:39:41,157 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:39:41,328 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:39:41,444 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-06-01 15:43:21,863 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:43:21,863 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:43:21,863 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:43:21,879 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a38c59b 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:43:21,895 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:43:21,895 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:43:21,910 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:43:21,926 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:43:21,926 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:43:22,390 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:43:22,390 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:43:22,428 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:43:22,443 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:43:22,443 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:43:22,475 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:43:22,490 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:43:22,490 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:43:22,490 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:43:23,361 DEBUG [DefaultChannelId] -Dio.netty.processId: 8852 (auto-detected) 
+2021-06-01 15:43:23,361 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:43:23,361 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:43:23,508 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:43:23,508 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:43:23,652 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:43:23,724 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:43:23,724 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:43:23,724 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1afbc08f 
+2021-06-01 15:43:23,744 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:43:23,744 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:43:23,744 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:43:23,744 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:43:23,744 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:43:25,273 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xa3b3979ed3e116cf 
+2021-06-01 15:43:26,324 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:43:27,414 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:43:27,794 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:43:28,539 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:43:28,907 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:43:29,027 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:43:29,343 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:43:30,230 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:43:31,253 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:43:31,618 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:43:31,804 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:43:31,882 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:43:32,076 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:43:32,292 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:43:32,832 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:43:32,943 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:43:33,116 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:43:33,352 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:43:33,448 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:43:33,708 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:43:33,796 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:43:34,431 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:43:34,890 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:43:35,047 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:43:35,124 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:43:35,311 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:44:15,683 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:44:15,689 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:44:15,689 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:44:15,689 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b6faea6 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:44:15,705 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:44:15,721 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:44:15,721 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:44:15,752 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:44:15,752 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:44:16,192 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:44:16,192 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:44:16,224 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:44:16,230 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:44:16,230 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:44:16,261 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:44:16,277 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:44:16,277 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:44:16,277 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:44:17,183 DEBUG [DefaultChannelId] -Dio.netty.processId: 940 (auto-detected) 
+2021-06-01 15:44:17,183 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:44:17,183 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:44:17,333 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:44:17,333 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:44:17,473 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:44:17,544 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:44:17,544 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:44:17,544 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5cd2627a 
+2021-06-01 15:44:17,566 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:44:17,566 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:44:17,566 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:44:17,566 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:44:17,566 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:44:18,368 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xb1f07dc4a228f88c 
+2021-06-01 15:44:19,458 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:44:20,722 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:44:21,101 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:44:21,693 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:44:22,073 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:44:22,138 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:44:22,454 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:44:23,261 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:44:24,219 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:44:24,588 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:44:24,706 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:44:24,774 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:44:24,938 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:44:25,142 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:44:25,675 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:44:25,793 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:44:25,965 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:44:26,342 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:44:26,446 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:44:26,743 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:44:26,839 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:44:27,465 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:44:27,838 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:44:28,003 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:44:28,091 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:44:28,273 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:44:29,114 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:45:15,770 INFO  [CrmContactServices] Contact Name is inserted 
+2021-06-01 15:45:15,914 INFO  [CrmContactServices] contacts email is inserted 
+2021-06-01 15:45:16,642 INFO  [CrmContactServices] User is assigned 
+2021-06-01 15:45:16,735 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:45:17,755 INFO  [CrmContactServices] Edit button is clicked 
+2021-06-01 15:45:17,957 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-06-01 15:45:18,030 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:45:18,054 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:45:18,075 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:45:18,600 INFO  [CrmContactServices] Contact is removed 
+2021-06-01 15:45:18,769 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:45:19,637 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:45:20,556 INFO  [CrmContactServices] create lead page is opened 
+2021-06-01 15:45:21,146 INFO  [CrmContactServices] Lead Name is inserted 
+2021-06-01 15:45:21,254 INFO  [CrmContactServices] Lead email is inserted 
+2021-06-01 15:45:21,378 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-06-01 15:45:21,670 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-06-01 15:45:21,802 INFO  [CrmContactServices] Lead title is inserted 
+2021-06-01 15:45:22,145 INFO  [CrmContactServices] Lead Website is inserted 
+2021-06-01 15:45:22,753 INFO  [CrmContactServices] Lead Address is inserted 
+2021-06-01 15:45:22,857 INFO  [CrmContactServices] lead is created 
+2021-06-01 15:45:22,913 INFO  [CrmContactServices] Created Lead email is captured 
+2021-06-01 15:45:24,881 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-06-01 15:45:25,544 INFO  [CrmContactServices] Created lead is removed 
+2021-06-01 15:45:26,178 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-06-01 15:45:26,371 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:45:26,565 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-06-01 15:46:45,237 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:46:45,253 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:46:45,253 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:46:45,253 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b6faea6 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:46:45,269 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:46:45,284 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:46:45,284 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:46:45,315 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:46:45,315 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:46:45,754 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:46:45,754 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:46:45,785 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:46:45,785 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:46:45,785 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:46:45,832 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:46:45,832 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:46:45,832 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:46:45,832 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:46:46,719 DEBUG [DefaultChannelId] -Dio.netty.processId: 12164 (auto-detected) 
+2021-06-01 15:46:46,735 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:46:46,735 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:46:46,879 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:46:46,879 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:46:47,018 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:46:47,089 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:46:47,089 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:46:47,089 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@252c973e 
+2021-06-01 15:46:47,140 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:46:47,140 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:46:47,140 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:46:47,140 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:46:47,140 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:46:47,991 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0x6a4126cf6b0b8beb 
+2021-06-01 15:46:49,081 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:46:50,158 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:46:50,536 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:46:51,113 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:46:51,444 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:46:51,512 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:46:51,764 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:46:52,610 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:46:53,609 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:46:53,985 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:46:54,105 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:46:54,179 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:46:54,385 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:46:54,574 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:46:55,227 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:46:55,336 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:46:55,513 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:46:55,790 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:46:55,894 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:46:56,151 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:46:56,217 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:46:56,849 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:46:57,209 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:46:57,365 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:46:57,445 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:46:57,609 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:46:58,393 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:47:45,045 INFO  [CrmContactServices] Contact Name is inserted 
+2021-06-01 15:47:45,186 INFO  [CrmContactServices] contacts email is inserted 
+2021-06-01 15:47:45,827 INFO  [CrmContactServices] User is assigned 
+2021-06-01 15:47:45,919 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:47:46,940 INFO  [CrmContactServices] Edit button is clicked 
+2021-06-01 15:47:47,133 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-06-01 15:47:47,201 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:47:47,225 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:47:47,249 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:47:47,767 INFO  [CrmContactServices] Contact is removed 
+2021-06-01 15:47:47,998 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:47:48,949 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:47:49,869 INFO  [CrmContactServices] create lead page is opened 
+2021-06-01 15:47:50,522 INFO  [CrmContactServices] Lead Name is inserted 
+2021-06-01 15:47:50,677 INFO  [CrmContactServices] Lead email is inserted 
+2021-06-01 15:47:50,813 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-06-01 15:47:51,100 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-06-01 15:47:51,225 INFO  [CrmContactServices] Lead title is inserted 
+2021-06-01 15:47:51,546 INFO  [CrmContactServices] Lead Website is inserted 
+2021-06-01 15:47:52,185 INFO  [CrmContactServices] Lead Address is inserted 
+2021-06-01 15:47:52,281 INFO  [CrmContactServices] lead is created 
+2021-06-01 15:47:52,337 INFO  [CrmContactServices] Created Lead email is captured 
+2021-06-01 15:47:54,319 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-06-01 15:47:54,904 INFO  [CrmContactServices] Created lead is removed 
+2021-06-01 15:47:55,693 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-06-01 15:47:55,878 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:47:56,035 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 
+2021-06-01 15:50:18,964 DEBUG [InternalLoggerFactory] Using Log4J as the default logging framework 
+2021-06-01 15:50:18,964 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.level: simple 
+2021-06-01 15:50:18,964 DEBUG [ResourceLeakDetector] -Dio.netty.leakDetection.targetRecords: 4 
+2021-06-01 15:50:18,964 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b6faea6 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] Platform: Windows 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] -Dio.netty.noUnsafe: false 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] Java version: 8 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] sun.misc.Unsafe.theUnsafe: available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] sun.misc.Unsafe.copyMemory: available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] java.nio.Buffer.address: available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] direct buffer constructor: available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] java.nio.Bits.unaligned: available, true 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] sun.misc.Unsafe: available 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] -Dio.netty.tmpdir: C:\Users\sanjana\AppData\Local\Temp (java.io.tmpdir) 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] -Dio.netty.maxDirectMemory: 1659371520 bytes 
+2021-06-01 15:50:18,986 DEBUG [PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+2021-06-01 15:50:19,002 DEBUG [CleanerJava6] java.nio.ByteBuffer.cleaner(): available 
+2021-06-01 15:50:19,002 DEBUG [PlatformDependent] -Dio.netty.noPreferDirect: false 
+2021-06-01 15:50:19,002 DEBUG [PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available 
+2021-06-01 15:50:19,033 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+2021-06-01 15:50:19,033 DEBUG [InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+2021-06-01 15:50:19,434 DEBUG [JdkSslContext] Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1]  
+2021-06-01 15:50:19,434 DEBUG [JdkSslContext] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA] 
+2021-06-01 15:50:19,465 DEBUG [MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 16 
+2021-06-01 15:50:19,481 DEBUG [NioEventLoop] -Dio.netty.noKeySetOptimization: false 
+2021-06-01 15:50:19,481 DEBUG [NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 16 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 16 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true 
+2021-06-01 15:50:19,519 DEBUG [PooledByteBufAllocator] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+2021-06-01 15:50:19,535 DEBUG [ByteBufUtil] -Dio.netty.allocator.type: pooled 
+2021-06-01 15:50:19,535 DEBUG [ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0 
+2021-06-01 15:50:19,535 DEBUG [ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+2021-06-01 15:50:20,453 DEBUG [DefaultChannelId] -Dio.netty.processId: 7544 (auto-detected) 
+2021-06-01 15:50:20,456 DEBUG [NetUtil] -Djava.net.preferIPv4Stack: false 
+2021-06-01 15:50:20,456 DEBUG [NetUtil] -Djava.net.preferIPv6Addresses: false 
+2021-06-01 15:50:20,589 DEBUG [NetUtilInitializations] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1) 
+2021-06-01 15:50:20,589 DEBUG [NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200 
+2021-06-01 15:50:20,731 DEBUG [DefaultChannelId] -Dio.netty.machineId: d8:c0:a6:ff:fe:ee:74:c7 (auto-detected) 
+2021-06-01 15:50:20,812 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkAccessible: true 
+2021-06-01 15:50:20,812 DEBUG [AbstractByteBuf] -Dio.netty.buffer.checkBounds: true 
+2021-06-01 15:50:20,812 DEBUG [ResourceLeakDetectorFactory] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@627f16c9 
+2021-06-01 15:50:20,852 DEBUG [Recycler] -Dio.netty.recycler.maxCapacityPerThread: 4096 
+2021-06-01 15:50:20,852 DEBUG [Recycler] -Dio.netty.recycler.maxSharedCapacityFactor: 2 
+2021-06-01 15:50:20,852 DEBUG [Recycler] -Dio.netty.recycler.linkCapacity: 16 
+2021-06-01 15:50:20,852 DEBUG [Recycler] -Dio.netty.recycler.ratio: 8 
+2021-06-01 15:50:20,852 DEBUG [Recycler] -Dio.netty.recycler.delayedQueue.ratio: 8 
+2021-06-01 15:50:21,690 DEBUG [ThreadLocalRandom] -Dio.netty.initialSeedUniquifier: 0xca623ce969c1c2ed 
+2021-06-01 15:50:22,807 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:50:23,968 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:50:24,403 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:50:25,053 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:50:25,400 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:50:25,490 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:50:25,774 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:50:26,515 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:50:27,457 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:50:27,817 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:50:27,939 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:50:27,989 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:50:28,105 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:50:28,306 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:50:28,903 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:50:29,018 INFO  [CrmAccountServices] User navigated to create account page 
+2021-06-01 15:50:29,196 INFO  [CrmAccountServices] Name and email id is inserted 
+2021-06-01 15:50:29,466 INFO  [CrmAccountServices] Billing address is inserted 
+2021-06-01 15:50:29,546 INFO  [CrmAccountServices] inserted billing address to shipping address 
+2021-06-01 15:50:29,806 INFO  [CrmAccountServices] phone number is inserted 
+2021-06-01 15:50:29,898 INFO  [CrmAccountServices] Save button is clicked 
+2021-06-01 15:50:30,577 INFO  [HomeServices] User is navaigated to accounts page 
+2021-06-01 15:50:30,993 INFO  [CrmAccountServices] Account is selected to remove 
+2021-06-01 15:50:31,145 INFO  [CrmAccountServices] Remove option is clicked 
+2021-06-01 15:50:31,225 INFO  [CrmAccountServices] Created account is removed 
+2021-06-01 15:50:31,389 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:50:32,188 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:51:18,711 INFO  [CrmContactServices] Contact Name is inserted 
+2021-06-01 15:51:18,868 INFO  [CrmContactServices] contacts email is inserted 
+2021-06-01 15:51:19,579 INFO  [CrmContactServices] User is assigned 
+2021-06-01 15:51:19,671 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:51:20,690 INFO  [CrmContactServices] Edit button is clicked 
+2021-06-01 15:51:20,889 INFO  [CrmContactServices] Created contacts Email is edited 
+2021-06-01 15:51:20,966 INFO  [CrmContactServices] Contact is saved 
+2021-06-01 15:51:20,998 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:51:21,018 INFO  [CrmContactServices] the email is edited as Julie@testing.com 
+2021-06-01 15:51:21,464 INFO  [CrmContactServices] Contact is removed 
+2021-06-01 15:51:21,694 INFO  [HomeServices] User is logged out after creating and removing the account 
+2021-06-01 15:51:22,534 INFO  [CrmAccountServices] User is logged into Crm website 
+2021-06-01 15:51:23,470 INFO  [CrmContactServices] create lead page is opened 
+2021-06-01 15:51:24,031 INFO  [CrmContactServices] Lead Name is inserted 
+2021-06-01 15:51:24,159 INFO  [CrmContactServices] Lead email is inserted 
+2021-06-01 15:51:24,290 INFO  [CrmContactServices] Lead Accountname is inserted 
+2021-06-01 15:51:24,580 INFO  [CrmContactServices] Lead phone number is inserted 
+2021-06-01 15:51:24,699 INFO  [CrmContactServices] Lead title is inserted 
+2021-06-01 15:51:24,973 INFO  [CrmContactServices] Lead Website is inserted 
+2021-06-01 15:51:25,573 INFO  [CrmContactServices] Lead Address is inserted 
+2021-06-01 15:51:25,673 INFO  [CrmContactServices] lead is created 
+2021-06-01 15:51:25,729 INFO  [CrmContactServices] Created Lead email is captured 
+2021-06-01 15:51:45,988 INFO  [CrmContactServices] Duplicate lead record is created 
+2021-06-01 15:51:46,573 INFO  [CrmContactServices] Created lead is removed 
+2021-06-01 15:51:47,265 INFO  [CrmContactServices] Total Count of leads is captured 
+2021-06-01 15:51:47,628 DEBUG [PoolThreadCache] Freed 2 thread-local buffer(s) from thread: AsyncHttpClient-1-3 

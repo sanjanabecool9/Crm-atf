@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Crm Functional suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Crm Functional suite]" parallel="none">
   <listeners>
     <listener class-name="com.crm.utils.BaseListener"/>
   </listeners>
@@ -11,27 +11,4 @@
       <class name="com.tests.CrmLeadTests"/>
     </classes>
   </test> <!-- Account Creation -->
-  <test name="Account Creation(failed)">
-    <classes>
-      <class name="com.tests.CrmContactTests">
-        <methods>
-          <include name="init"/>
-          <include name="createContact"/>
-        </methods>
-      </class> <!-- com.tests.CrmContactTests -->
-      <class name="com.tests.CrmAccountTests">
-        <methods>
-          <include name="createAccountWithBillingAddress"/>
-          <include name="testcaseToCheckAValidPhoneNumber"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- com.tests.CrmAccountTests -->
-      <class name="com.tests.CrmLeadTests">
-        <methods>
-          <include name="init"/>
-          <include name="createLead"/>
-        </methods>
-      </class> <!-- com.tests.CrmLeadTests -->
-    </classes>
-  </test> <!-- Account Creation(failed) -->
 </suite> <!-- Failed suite [Crm Functional suite] -->
